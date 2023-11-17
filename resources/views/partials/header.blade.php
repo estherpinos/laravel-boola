@@ -5,16 +5,16 @@
 
      <nav>
          <ul>
-           <li v-for="(item, index) in menuPersone" :key="index">
-             <a :href="item.href">{{ item.text }}</a>
-           </li>
+           <li><a href="#">Donna</a></li>
+           <li><a href="#">Uomo</a></li>
+           <li><a href="#">Bambino</a></li>
          </ul>
        </nav>
 
        <!-- LOGO BOOLEAN -->
 
        <div class="logo-bar">
-         <img src="../assets/img/boolean-logo.png" alt="boolando-logo">
+         <img src="/img/boolean-logo.png" alt="boolando-logo">
 
        </div>
 
@@ -23,10 +23,10 @@
        <div id="menu-icon-bar">
          <nav>
            <ul>
-             <li v-for="(item, index) in menuIcons" :key="index">
-             <a :href="item.href"><i :class="item.icon"></i></a></li>
-
-           </ul>
+             <li><a href="#">icona</a></li>
+             <li><a href="#">icona</a></li>
+             <li><a href="#">icona</a></li>
+            </ul>
 
          </nav>
        </div>
