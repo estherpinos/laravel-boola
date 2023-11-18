@@ -1,6 +1,9 @@
 .section-footer{
     background-color: $color-footer;
     height: 90px;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
 
       .container{
         display: flex;
