@@ -27,6 +27,8 @@
                 <div class="product-2">
                     <img src="/img/{{ $product['backImage']}}" alt="{{$product['name']}}">
                 </div>
+
+                {{-- like --}}
                 <div class="heart"><i class="fa-solid fa-heart"></i></div>
 
 
