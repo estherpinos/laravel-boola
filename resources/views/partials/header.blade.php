@@ -1,3 +1,5 @@
+
+
 <header>
     <div class="container">
 
@@ -23,9 +25,9 @@
        <div id="menu-icon-bar">
          <nav>
            <ul>
-             <li><a href="#">icona</a></li>
-             <li><a href="#">icona</a></li>
-             <li><a href="#">icona</a></li>
+             <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
+             <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+             <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
             </ul>
 
          </nav>

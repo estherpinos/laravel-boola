@@ -35,7 +35,7 @@
                 <div class="text-foto">
                     <p class="marca">{{$product['brand']}}</p>
                     <h4>{{$product['name']}}</h4>
-                    <span class="prezzo-saldi">&euro;</span>
+                    <span class="prezzo-saldi">{{$product['price']}}&euro;</span>
                     <span class="prezzo"> {{$product['price']}}&euro;</span>
 
                  </div>
